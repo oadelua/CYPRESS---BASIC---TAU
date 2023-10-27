@@ -1,0 +1,22 @@
+{
+  "name": "cypress---basic---tau",
+  "version": "1.0.0",
+  "description": "TAU Cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oadelua/CYPRESS---BASIC---TAU.git"
+  },
+  "author": "Tobi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oadelua/CYPRESS---BASIC---TAU/issues"
+  },
+  "homepage": "https://github.com/oadelua/CYPRESS---BASIC---TAU#readme",
+  "dependencies": {
+    "cypress": "^13.3.3"
+  }
+}
