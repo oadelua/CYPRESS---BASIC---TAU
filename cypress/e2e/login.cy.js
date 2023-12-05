@@ -1,6 +1,6 @@
 import {login} from "../fixtures/selectors.js";
 describe("Given I am on the login  page", () => {
-    beforeEach (function () {
+    beforeEach ( () => {
         cy.visit('/')
     });
 it('my second cypress test usuing selectors commands', () => {
@@ -15,3 +15,4 @@ it('my second cypress test usuing selectors commands', () => {
 
 })
 })
+

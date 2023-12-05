@@ -1,4 +1,3 @@
-//
 it('my first cypress test', () => {
     cy.wait (3000)
 cy.visit('/')

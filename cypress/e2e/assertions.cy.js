@@ -9,8 +9,11 @@ cy.get('.justify-between > .btn-md'). click()
 cy.wait(3000)
 cy.get('#msg-overlay-list-bubble-search__search-typeahead-input').click()
 cy.get('#msg-overlay-list-bubble-search__search-typeahead-input').type('Adeyiga Ogunsi {enter}')
+cy.wait(3000)
 cy.get('#voyager-feed')
 .should('be.visible')
 cy.get('#global-nav')
 .should('be.visible')
 });
+
+// .should ('have.value', 'input value')
